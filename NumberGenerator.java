@@ -7,9 +7,7 @@ import java.util.Random;
  *
  */
 public class NumberGenerator {
-	
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 	    Random randomnumber = new Random();
 	    double numberinput = randomnumber.nextDouble();
 	    numberinput = Math.pow(numberinput, -1);
